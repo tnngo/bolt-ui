@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/boreq/bolt-ui/application"
 	"github.com/google/wire"
+	"github.com/tnngo/bolt-ui/application"
 )
 
 //lint:ignore U1000 because

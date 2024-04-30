@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/NYTimes/gziphandler"
-	"github.com/boreq/bolt-ui/internal/config"
-	"github.com/boreq/bolt-ui/logging"
 	"github.com/boreq/errors"
 	"github.com/rs/cors"
+	"github.com/tnngo/bolt-ui/internal/config"
+	"github.com/tnngo/bolt-ui/logging"
 )
 
 type Server struct {

@@ -1,9 +1,9 @@
 package wire
 
 import (
-	"github.com/boreq/bolt-ui/adapters"
-	"github.com/boreq/bolt-ui/internal/config"
 	"github.com/google/wire"
+	"github.com/tnngo/bolt-ui/adapters"
+	"github.com/tnngo/bolt-ui/internal/config"
 	bolt "go.etcd.io/bbolt"
 )
 

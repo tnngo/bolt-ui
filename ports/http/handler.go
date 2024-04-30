@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/boreq/bolt-ui/application"
-	"github.com/boreq/bolt-ui/logging"
-	"github.com/boreq/bolt-ui/ports/http/frontend"
 	"github.com/boreq/errors"
 	"github.com/boreq/rest"
 	"github.com/julienschmidt/httprouter"
+	"github.com/tnngo/bolt-ui/application"
+	"github.com/tnngo/bolt-ui/logging"
+	"github.com/tnngo/bolt-ui/ports/http/frontend"
 )
 
 type Handler struct {

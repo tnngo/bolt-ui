@@ -5,10 +5,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/boreq/bolt-ui/application"
-	"github.com/boreq/bolt-ui/internal/fixture"
-	"github.com/boreq/bolt-ui/internal/wire"
 	"github.com/stretchr/testify/require"
+	"github.com/tnngo/bolt-ui/application"
+	"github.com/tnngo/bolt-ui/internal/fixture"
+	"github.com/tnngo/bolt-ui/internal/wire"
 	"go.etcd.io/bbolt"
 )
 

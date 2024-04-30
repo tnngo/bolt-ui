@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"unicode"
 
-	"github.com/boreq/bolt-ui/application"
+	"github.com/tnngo/bolt-ui/application"
 )
 
 type Tree struct {

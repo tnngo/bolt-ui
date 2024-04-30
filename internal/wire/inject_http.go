@@ -3,8 +3,8 @@ package wire
 import (
 	"net/http"
 
-	httpPort "github.com/boreq/bolt-ui/ports/http"
 	"github.com/google/wire"
+	httpPort "github.com/tnngo/bolt-ui/ports/http"
 )
 
 //lint:ignore U1000 because

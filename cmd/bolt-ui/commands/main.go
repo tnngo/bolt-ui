@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/boreq/bolt-ui/internal/config"
-	"github.com/boreq/bolt-ui/internal/wire"
-	"github.com/boreq/bolt-ui/logging"
 	"github.com/boreq/guinea"
 	"github.com/pkg/errors"
+	"github.com/tnngo/bolt-ui/internal/config"
+	"github.com/tnngo/bolt-ui/internal/wire"
+	"github.com/tnngo/bolt-ui/logging"
 )
 
 const (
